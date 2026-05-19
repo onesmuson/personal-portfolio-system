@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Onesmus Meron | Portfolio</title>
+<title>Onesmus Meron | Software Developer</title>
 
 <link rel="stylesheet" href="style.css">
 
@@ -19,7 +19,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 
 <body>
 
-<!-- NAVIGATION -->
+<!-- ================= NAVBAR ================= -->
 
 <header>
 
@@ -29,7 +29,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 
 <ul>
 
-<li><a href="#home">Home</a></li>
+<li><a href="#home" class="active">Home</a></li>
 <li><a href="#about">About</a></li>
 <li><a href="#skills">Skills</a></li>
 <li><a href="#services">Services</a></li>
@@ -42,11 +42,13 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 
 </header>
 
-<!-- HERO SECTION -->
+<!-- ================= HERO SECTION ================= -->
 
 <section id="home" class="hero">
 
 <div class="hero-text">
+
+<h3>WELCOME TO MY PORTFOLIO</h3>
 
 <h1>Hello, I'm</h1>
 
@@ -56,17 +58,32 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 
 <p>
 
-A passionate and creative software developer focused on
-building modern, interactive, and user-friendly digital solutions.
+I am a passionate and creative software developer
+dedicated to designing modern, responsive,
+and user-friendly digital solutions.
 
-I specialize in web development, UI design,
-and software systems development using modern technologies.
+I specialize in front-end web development,
+interactive user interfaces,
+and innovative software systems using
+HTML, CSS, JavaScript, and Java.
+
+My mission is to build impactful digital experiences
+that combine creativity, technology,
+and excellent user experience.
 
 </p>
+
+<div class="hero-buttons">
 
 <a href="#contact" class="btn">
 Hire Me
 </a>
+
+<a href="#projects" class="btn secondary-btn">
+View Projects
+</a>
+
+</div>
 
 </div>
 
@@ -78,7 +95,7 @@ Hire Me
 
 </section>
 
-<!-- ABOUT -->
+<!-- ================= ABOUT SECTION ================= -->
 
 <section id="about" class="section">
 
@@ -89,21 +106,46 @@ Hire Me
 <p>
 
 My name is <strong>Onesmus Meron</strong>,
-a passionate technology enthusiast and software developer
-with strong interest in creating modern websites,
-interactive applications, and innovative digital solutions.
+a technology enthusiast and aspiring software developer
+with strong passion for innovation,
+problem-solving,
+and digital transformation.
 
-I enjoy transforming ideas into real systems that solve
-real-world problems while maintaining excellent user experience
-and modern design principles.
+I enjoy building modern websites,
+interactive applications,
+and software systems that solve real-world challenges.
 
-I am continuously improving my skills in software development,
-front-end technologies, system analysis,
-and responsive web design.
+I continuously improve my knowledge in:
 
-My goal is to become a highly skilled software engineer
-capable of developing impactful digital systems
-for businesses and communities globally.
+</p>
+
+<br>
+
+<div class="skills-container">
+
+<div class="skill-card">Web Development</div>
+
+<div class="skill-card">Responsive Design</div>
+
+<div class="skill-card">Software Systems</div>
+
+<div class="skill-card">UI/UX Design</div>
+
+<div class="skill-card">Frontend Development</div>
+
+<div class="skill-card">Creative Problem Solving</div>
+
+</div>
+
+<br>
+
+<p>
+
+I believe technology has the power
+to transform businesses and communities,
+and I am committed to becoming
+a professional software engineer
+capable of building impactful digital systems globally.
 
 </p>
 
@@ -111,7 +153,7 @@ for businesses and communities globally.
 
 </section>
 
-<!-- SKILLS -->
+<!-- ================= SKILLS ================= -->
 
 <section id="skills" class="section">
 
@@ -119,27 +161,41 @@ for businesses and communities globally.
 
 <div class="skills-container">
 
-<div class="skill-card">HTML5</div>
+<div class="skill-card">
+<i class="fa-brands fa-html5"></i>
+<h3>HTML5</h3>
+</div>
 
-<div class="skill-card">CSS3</div>
+<div class="skill-card">
+<i class="fa-brands fa-css3-alt"></i>
+<h3>CSS3</h3>
+</div>
 
-<div class="skill-card">JavaScript</div>
+<div class="skill-card">
+<i class="fa-brands fa-js"></i>
+<h3>JavaScript</h3>
+</div>
 
-<div class="skill-card">Java</div>
+<div class="skill-card">
+<i class="fa-brands fa-java"></i>
+<h3>Java</h3>
+</div>
 
-<div class="skill-card">GitHub</div>
+<div class="skill-card">
+<i class="fa-brands fa-github"></i>
+<h3>GitHub</h3>
+</div>
 
-<div class="skill-card">Responsive Design</div>
-
-<div class="skill-card">UI/UX Design</div>
-
-<div class="skill-card">Web Development</div>
+<div class="skill-card">
+<i class="fa-solid fa-code"></i>
+<h3>Web Design</h3>
+</div>
 
 </div>
 
 </section>
 
-<!-- SERVICES -->
+<!-- ================= SERVICES ================= -->
 
 <section id="services" class="section">
 
@@ -149,13 +205,15 @@ for businesses and communities globally.
 
 <div class="service-card">
 
-<i class="fa-solid fa-code"></i>
+<i class="fa-solid fa-laptop-code"></i>
 
 <h2>Web Development</h2>
 
 <p>
 
-Developing responsive and modern websites
+Developing responsive,
+modern,
+and interactive websites
 with clean user interfaces.
 
 </p>
@@ -164,14 +222,15 @@ with clean user interfaces.
 
 <div class="service-card">
 
-<i class="fa-solid fa-laptop-code"></i>
+<i class="fa-solid fa-code"></i>
 
-<h2>System Development</h2>
+<h2>Software Development</h2>
 
 <p>
 
-Creating software systems and applications
-to solve real-world problems.
+Building software systems
+that solve practical real-world problems
+efficiently and effectively.
 
 </p>
 
@@ -185,8 +244,9 @@ to solve real-world problems.
 
 <p>
 
-Designing visually appealing and
-user-friendly digital experiences.
+Creating attractive,
+user-friendly,
+and engaging digital experiences.
 
 </p>
 
@@ -196,7 +256,7 @@ user-friendly digital experiences.
 
 </section>
 
-<!-- PROJECTS -->
+<!-- ================= PROJECTS ================= -->
 
 <section id="projects" class="section">
 
@@ -208,9 +268,13 @@ user-friendly digital experiences.
 
 <p>
 
-A colorful responsive portfolio website built using
-HTML, CSS, and JavaScript to showcase
-skills, projects, and professional information.
+A colorful responsive personal portfolio website
+developed using HTML,
+CSS,
+and JavaScript
+to showcase professional skills,
+projects,
+and personal branding.
 
 </p>
 
@@ -218,12 +282,14 @@ skills, projects, and professional information.
 
 <div class="project-card">
 
-<h2>Future Software Projects</h2>
+<h2>Future Development Projects</h2>
 
 <p>
 
-More software engineering and web development projects
-will be added here as I continue growing my skills.
+Additional software engineering projects
+and innovative systems
+will be added as I continue growing
+in the technology industry.
 
 </p>
 
@@ -231,7 +297,7 @@ will be added here as I continue growing my skills.
 
 </section>
 
-<!-- CONTACT -->
+<!-- ================= CONTACT ================= -->
 
 <section id="contact" class="section">
 
@@ -245,7 +311,7 @@ will be added here as I continue growing my skills.
 
 <a href="https://wa.me/254769910397" target="_blank">
 
-WhatsApp Me
+Chat With Me on WhatsApp
 
 </a>
 
@@ -291,7 +357,7 @@ github.com/onesmuson
 
 </section>
 
-<!-- FOOTER -->
+<!-- ================= FOOTER ================= -->
 
 <footer>
 
